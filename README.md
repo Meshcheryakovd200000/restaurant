@@ -31,16 +31,24 @@ docker-compose --env-file .env  up --build
 ```
 
 *Создание схем, таблиц*
+
+```sh
 make db_upgrade
+```
 
 *Запустить*
-make up
 
+```sh
+make up
+```
 
 
 
 
 
 *Файл с зависимостями*
+
+```sh
 app\requirements.txt
+```
 
